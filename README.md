@@ -13,6 +13,8 @@
 - Google Sheet API
 - Google Drive API
 - Pandas
+- Google Sheet
+- AWS S3 Bucket
 - Docker
 - Terraform
 - Apache Airflow
