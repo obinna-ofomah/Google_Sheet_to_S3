@@ -17,7 +17,7 @@ def format_columns(record):
 
     # Format the DataFrame columns
     for i in range(len(df_columns)):
-        df_columns[i] = df_columns[i].strip().replace(' ', '_')
+        df_columns[i] = df_columns[i].strip().lower().replace(' ', '_')
 
     # Re-assign the formatted columns to the Dataframe columns
     df.columns = df_columns
