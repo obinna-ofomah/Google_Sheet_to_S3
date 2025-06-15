@@ -22,7 +22,7 @@
 - Install the required python libraries and Google APIs
 - Connect Google sheet to Python using the APIs
 - Export sheet to pandas DataFrame
-- Format the Headers or Columns by - remove the leading and trailing spaces, - replace the inner space with an / underscore ('_')
+- Format the Headers or Columns by - remove the leading and trailing spaces, - replace the inner space with an underscore ('_')
 - Provision an S3 Bucket using Terraform
 - Authenticate the IAM User using the Boto3 Library
 - Covert file to Parquet and Write same S3 Bucket using the Awswrangler library
