@@ -2,6 +2,7 @@ import gspread
 import awswrangler as wr
 import boto3
 from transform import format_columns
+from airflow.models import Variable
 
 
 
