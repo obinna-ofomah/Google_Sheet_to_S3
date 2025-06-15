@@ -13,7 +13,7 @@ def load_to_s3():
     workbook = client.open('class_list')
     workbook_names =  workbook.get_worksheet(0)
 
-    # Pulling all records
+    # Pulling all records from sheet
     data = workbook_names.get_all_records()
     df = format_columns(data)
 
